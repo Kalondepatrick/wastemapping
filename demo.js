@@ -44,7 +44,7 @@ require(["esri/config",
         popupTemplate: popupDumpsites,
         });
 	
-	Dumpsites.title = "Illegal Dumping Location";	
+	Dumpsites.title = "Waste Piles";	
 	
 	// Waste Collection 
       
