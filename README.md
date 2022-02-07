@@ -21,12 +21,10 @@ The current project presents a prototype of a dashboard that will help different
 # Data Resources
 
 The dashboard uses multiple data sources. We are intergrating data from the following sources:
-- Human population from Malawi National Statistical Office
-- Waste disposal from open Litter Maps (OLM) and data from an ODK survey that we created for monitoring Mudi river.
-- Admistration boundaries from Malawi Spatial Data Platform (MASDAP) 
-- Private Waste Collection (From Youth for Environmental Development)
+- Raster tiles made from drone data of the study area
+- Waste Piles detected by Random Forest (Orfeo-toolbox).
+- Waste Piles detected by Convolution Neural Networks (ArcGIS Pro)
 
-We also intend to integrate data from social media (Based on previous cleanup campaigns). 
 
 # How it works
 
