@@ -36,9 +36,9 @@ Disclaimer. Our solution should not be assumed to be a perfect solution to addre
 
 Our next step will involve, integrating emerging sources of data. Such data include Social Media and much work has already been done elsewhere. Patrick, our project lead is working on a masters level research study that is exploring the possibility of mapping plastic waste dumpsites using images capture by unmanned aerial vehicles (UAV's), commonly known as drones. But as a team, we are working on exploring potential determinants of waste disposal. We have been awarded Neville-Shurman Award and we are using that grant funding to understand how household social economic profile relate to choice of waste disposal. Aside from this, we have also been exploring how spatial factors such as distance to a waste dumpsite influence household decision to subscribe to private waste collection services. While that all these studies are being done in a scientifically sound manner, we would like to develop strategic partenerships with other stakeholders including universities, research institutions, start-ups and non-profit organizations. Our belief is that partenerships are fundamental to strenghten the impact of our work. 
 
-You can check out our prototype here: https://kalondepatrick.github.io/community_waste_Management/
+You can check out our prototype here: https://kalondepatrick.github.io/wastemapping/
 
-Feedback and comments can be sent to: operations.yed@yahoo.com 
+Feedback and comments can be sent to me directly. 
 
 # Scholarly work cited
 
