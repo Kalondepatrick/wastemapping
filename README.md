@@ -1,6 +1,9 @@
 # Waste Mapping in Malawi
 
-# Problem Statement
+
+# Context
+
+In Malawi, the issue of waste management has attracted political support.  The President of the Republic of Malawi, Dr Razarus Chakwera declared that every second friday of the month to be dedicated to clean up activities. The impact of such waste clean up activities is curently unknown but most of the clean ups have been done in the major cities. Malawi has four major cities: Lilongwe (capital city), Blantyre (commercial city), Zomba (old capital city) and Mzuzu. Waste disposal issues have been reported in all the cities. We are working with Youth for Environmental Development in Lilongwe, Mr Manota Mphande of Clean Mudi River project for Blantyre, and Mzuzu E-hub for Mzuzu. We do not have any current connections with the city of Zomba, but we would be glad if we establish such connection. 
 
 The Malawi State of Environment report (2010) indicates that objective decision making in environmental management is being challenged by lack of accurate and updated data on the state of the environment in Malawi. One major explanation for dearth in data resource is lack of monitoring systems and institutions to monitor implementation of environmental activities. To help addressing the problem, we are developing a Waste Management Monitoring System that will make use of data from multiple sources. The project is inspired by community projects from Lilongwe where a voluntary youth group – Youth for Environmental Development (YED) – utilized citizen science to monitor unlawful waste disposal practices, coverage of waste collection programs and community cleanup projects in one of Lilongwe City's peri urban communities.  
 
@@ -9,10 +12,6 @@ The maps for unlawful waste disposal from Lilongwe City highlighted that urban c
 <p align="center">
   <img height="500" src="https://github.com/Kalondepatrick/community_waste_Management/blob/main/image.jpeg">
 </p>
-
-# Context
-
-In Malawi, the issue of waste management has attracted political support.  The President of the Republic of Malawi, Dr Razarus Chakwera declared that every second friday of the month to be dedicated to clean up activities. The impact of such waste clean up activities is curently unknown but most of the clean ups have been done in the major cities. Malawi has four major cities: Lilongwe (capital city), Blantyre (commercial city), Zomba (old capital city) and Mzuzu. Waste disposal issues have been reported in all the cities. We are working with Youth for Environmental Development in Lilongwe, Mr Manota Mphande of Clean Mudi River project for Blantyre, and Mzuzu E-hub for Mzuzu. We do not have any current connections with the city of Zomba, but we would be glad if we establish such connection. 
 
 # Practical Significance
 
