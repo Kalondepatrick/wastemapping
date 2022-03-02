@@ -151,4 +151,3 @@ require(["esri/config",
         view.ui.add(timeSlider, "bottom-left");
         
 
-  });
