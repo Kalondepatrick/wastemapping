@@ -77,6 +77,10 @@ require(["esri/config",
         outFields: ["NAME_1"],
         popupTemplate: popupDistricts,
         }); 
+	
+    var cycleMap = new WebTiledLayer("https://tiles.arcgis.com/tiles/kCCq6u9VUnRxswS4/arcgis/rest/services/Ndirande-ortho/MapServer"
+        });
+        map.addLayer(cycleMap);
           
          /********************
          * Add Map Legend 
