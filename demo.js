@@ -1,6 +1,7 @@
 require(["esri/config", 
          "esri/Map", 
-         "esri/views/MapView", 
+         "esri/views/MapView",
+	 "dojo/domReady",
          "esri/layers/FeatureLayer", 
          "esri/widgets/Legend", 
          "esri/Color",
