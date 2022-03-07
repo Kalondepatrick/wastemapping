@@ -128,31 +128,5 @@ require(["esri/config",
     	map.add(District, 0);
 
     });
-
-
-	         /********************
-         * Adding Map slider 
-         ********************/
-    
-    const timeSlider = new TimeSlider({
-        container: "SliderDiv",
-        view: view,
-        timevisible: true,
-        fullTimeExtent:{
-            start: new Date(2020,01,29),
-            end: new Date(2021,01,31)
-        },
-        stops:{
-          dates:[ 
-                new Date(2020,01,29),
-                new Date(2020,02,31),
-                new Date(2020,03,30),
-                new Date(2021,01,31)
-            ]
-        }
-        
-        });
-    
-        view.ui.add(timeSlider, "bottom-left");
         
 
