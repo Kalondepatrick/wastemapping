@@ -82,7 +82,7 @@ require(["esri/config",
 	// Add Basemap
 	
    let basemap = new TileLayer({
-	   url: "https://services.arcgisonline.com/arcgis/rest/services/World_Terrain_Base/MapServer"
+	   url: "https://tiles.arcgis.com/tiles/kCCq6u9VUnRxswS4/arcgis/rest/services/Ndirande-ortho/MapServer"
    });
 
    
