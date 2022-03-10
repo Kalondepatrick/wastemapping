@@ -79,6 +79,12 @@ require(["esri/config",
         popupTemplate: popupDistricts,
         }); 
 	
+	// Add Basemap
+	
+   let basemap = new TileLayer({
+	   url: "https://services.arcgisonline.com/arcgis/rest/services/World_Terrain_Base/MapServer"
+   });
+
    
           
          /********************
@@ -125,6 +131,7 @@ require(["esri/config",
 	map.add(Dumpsites, 0);
 	map.add(Locations, 1);
     	map.add(District, 0);
+	map.add(basemap, 0);
 
     });
         
