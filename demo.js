@@ -6,9 +6,8 @@ require(["esri/config",
          "esri/Color",
 	 "esri/widgets/Expand",
          "esri/renderers/UniqueValueRenderer", 
-         "esri/widgets/Search", 
-	 "esri/layers/WebTiledLayer"
-        ], function(esriConfig, Map, MapView, FeatureLayer, Legend, Color, Expand, UniqueValueRenderer, Search, WebTiledLayer) {
+         "esri/widgets/Search"
+        ], function(esriConfig, Map, MapView, FeatureLayer, Legend, Color, Expand, UniqueValueRenderer, Search) {
       
     
       esriConfig.apiKey = MY_API_KEY; 
@@ -20,7 +19,7 @@ require(["esri/config",
     
     const view = new MapView({
         map: map,
-        center: [35.0408303, -15.7744425],
+        center: [33.8008413, -14.0161304],
         zoom: 19, 
         container: "viewDiv",
         constraints: {
@@ -45,9 +44,28 @@ require(["esri/config",
         popupTemplate: popupDumpsites,
         });
 	
-	Dumpsites.title = "Waste Piles";	
+	Dumpsites.title = "Illegal Dumping Location";	
 	
-		       
+	// Waste Collection 
+      
+      const WasteCollection = new FeatureLayer({
+      url: "https://services3.arcgis.com/75NnIQLDaYFUpt2v/arcgis/rest/services/Waste_collection_service_coverage_by_private_sector/FeatureServer/0"
+        });
+
+         //Changing the layer name
+
+	  WasteCollection.title = "Homes under Private Waste Collection";
+	       
+	// Waste Cleanups 
+      
+      const WasteCleanups = new FeatureLayer({
+      url: "https://services3.arcgis.com/75NnIQLDaYFUpt2v/arcgis/rest/services/cleanup/FeatureServer"
+        });
+
+         //Changing the layer name
+
+	  WasteCleanups.title = "Waste Clean Up Exercises";	       
+	       
 	// Malawi sub-admistrative boundaries (TA's)
    
     var popupTA ={
@@ -77,11 +95,6 @@ require(["esri/config",
         outFields: ["NAME_1"],
         popupTemplate: popupDistricts,
         }); 
-	
-    //var cycleMap = new WebTiledLayer({
-	 //   url: "https://tiles.arcgis.com/tiles/kCCq6u9VUnRxswS4/arcgis/rest/services/Ndirande-ortho/MapServer"
-        //});
-        //map.addLayer(cycleMap);
           
          /********************
          * Add Map Legend 
@@ -107,7 +120,6 @@ require(["esri/config",
 		index: 2
 	});
 	
-	
 	const statsDiv = document.getElementById("statsDiv");
         const infoDiv = document.getElementById("infoDiv");
         const infoDivExpand = new Expand({
@@ -125,6 +137,8 @@ require(["esri/config",
          ********************/
          
 	map.add(Dumpsites, 0);
+	map.add(WasteCollection, 0);
+	map.add(WasteCleanups, 0);
 	map.add(Locations, 1);
     	map.add(District, 0);
 
