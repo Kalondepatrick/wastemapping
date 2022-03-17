@@ -1,7 +1,6 @@
 require(["esri/config", 
          "esri/Map", 
-         "esri/views/MapView",
-	 "dojo/domReady",
+         "esri/views/MapView", 
          "esri/layers/FeatureLayer", 
          "esri/widgets/Legend", 
          "esri/Color",
@@ -79,13 +78,9 @@ require(["esri/config",
         popupTemplate: popupDistricts,
         }); 
 	
-	// Add Basemap
-	
-   let basemap = new TileLayer({
-	   url: "https://tiles.arcgis.com/tiles/kCCq6u9VUnRxswS4/arcgis/rest/services/Ndirande-ortho/MapServer"
-   });
-
-   
+    var cycleMap = new WebTiledLayer("https://tiles.arcgis.com/tiles/kCCq6u9VUnRxswS4/arcgis/rest/services/Ndirande-ortho/MapServer"
+        });
+        map.addLayer(cycleMap);
           
          /********************
          * Add Map Legend 
@@ -131,8 +126,5 @@ require(["esri/config",
 	map.add(Dumpsites, 0);
 	map.add(Locations, 1);
     	map.add(District, 0);
-	map.add(basemap, 0);
 
     });
-        
-
