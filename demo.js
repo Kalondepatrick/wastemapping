@@ -78,7 +78,8 @@ require(["esri/config",
         popupTemplate: popupDistricts,
         }); 
 	
-    var cycleMap = new WebTiledLayer("https://tiles.arcgis.com/tiles/kCCq6u9VUnRxswS4/arcgis/rest/services/Ndirande-ortho/MapServer"
+    var cycleMap = new WebTiledLayer({
+	    url: "https://tiles.arcgis.com/tiles/kCCq6u9VUnRxswS4/arcgis/rest/services/Ndirande-ortho/MapServer"
         });
         map.addLayer(cycleMap);
           
