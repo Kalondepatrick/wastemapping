@@ -20,7 +20,7 @@ require(["esri/config",
     
     const view = new MapView({
         map: map,
-        center: [33.8008413, -14.0161304],
+        center: [35.04284, -15.7730355],
         zoom: 19, 
         container: "viewDiv",
         constraints: {
