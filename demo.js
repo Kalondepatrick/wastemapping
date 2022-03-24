@@ -34,10 +34,7 @@ require(["esri/config",
          ********************/
 
 	// Waste Dumpsites 
-    var popupDumpsites ={
-        "title":"Dumpsites",
-        "content": "<b>Phone:</b> {phone}<br><b>Picked up:</b> {picked_up}"
-      }  
+   
       
     var Dumpsites = new FeatureLayer({
         url: "https://services8.arcgis.com/kCCq6u9VUnRxswS4/arcgis/rest/services/waste_piles_transect_walk/FeatureServer/0"
