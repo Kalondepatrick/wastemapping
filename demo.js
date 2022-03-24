@@ -6,9 +6,8 @@ require(["esri/config",
          "esri/Color",
 	 "esri/widgets/Expand",
          "esri/renderers/UniqueValueRenderer", 
-         "esri/widgets/Search",
-	 "esri/layers/WebTiledLayer"
-        ], function(esriConfig, Map, MapView, FeatureLayer, Legend, Color, Expand, UniqueValueRenderer, Search, WebTiledLayer) {
+         "esri/widgets/Search"
+        ], function(esriConfig, Map, MapView, FeatureLayer, Legend, Color, Expand, UniqueValueRenderer, Search) {
       
     
       esriConfig.apiKey = MY_API_KEY; 
