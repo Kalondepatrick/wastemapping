@@ -6,8 +6,9 @@ require(["esri/config",
          "esri/Color",
 	 "esri/widgets/Expand",
          "esri/renderers/UniqueValueRenderer", 
-         "esri/widgets/Search"
-        ], function(esriConfig, Map, MapView, FeatureLayer, Legend, Color, Expand, UniqueValueRenderer, Search) {
+         "esri/widgets/Search",
+	 "esri/layers/TileLayer"
+        ], function(esriConfig, Map, MapView, FeatureLayer, Legend, Color, Expand, UniqueValueRenderer, Search, TileLayer) {
       
     
       esriConfig.apiKey = MY_API_KEY; 
@@ -96,6 +97,13 @@ require(["esri/config",
         popupTemplate: popupDistricts,
         }); 
           
+let layer = new TileLayer({
+    url: "https://services.arcgisonline.com/arcgis/rest/services/World_Terrain_Base/MapServer"
+  });
+  // Add layer to map
+	map.add(layer);
+});
+	
          /********************
          * Add Map Legend 
          ********************/
