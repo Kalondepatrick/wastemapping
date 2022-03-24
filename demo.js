@@ -117,9 +117,8 @@ let layer = new TileLayer({
          /********************
          * Add all Maps 
          ********************/
-         
+        map.add(Dumpsites); 
 	map.add(layer);
-	map.add(Dumpsites, 0);
 	map.add(Locations, 1);
     	map.add(District, 0);
 
