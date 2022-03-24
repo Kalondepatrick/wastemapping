@@ -40,12 +40,10 @@ require(["esri/config",
       }  
       
     var Dumpsites = new FeatureLayer({
-        url: "https://services3.arcgis.com/75NnIQLDaYFUpt2v/arcgis/rest/services/dumpsitecommunty/FeatureServer",
-        outFields: ["phone","picked_up"],
-        popupTemplate: popupDumpsites,
+        url: "https://services8.arcgis.com/kCCq6u9VUnRxswS4/arcgis/rest/services/Waste_Piles_(Transect_Walk)/FeatureServer/0"
         });
 	
-	Dumpsites.title = "Illegal Dumping Location";	
+	Dumpsites.title = "Waste Piles (Transect Walk)";	
 	
 	// Waste Collection 
       
