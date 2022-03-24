@@ -100,10 +100,7 @@ require(["esri/config",
 let layer = new TileLayer({
     url: "https://tiles.arcgis.com/tiles/kCCq6u9VUnRxswS4/arcgis/rest/services/Ndirande-ortho/MapServer"
   });
-  // Add layer to map
-	map.add(layer);
-});
-	
+ 	
          /********************
          * Add Map Legend 
          ********************/
@@ -144,6 +141,7 @@ let layer = new TileLayer({
          * Add all Maps 
          ********************/
          
+	map.add(layer);
 	map.add(Dumpsites, 0);
 	map.add(WasteCollection, 0);
 	map.add(WasteCleanups, 0);
