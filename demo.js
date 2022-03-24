@@ -98,7 +98,7 @@ require(["esri/config",
         }); 
           
 let layer = new TileLayer({
-    url: "https://services.arcgisonline.com/arcgis/rest/services/World_Terrain_Base/MapServer"
+    url: "https://tiles.arcgis.com/tiles/kCCq6u9VUnRxswS4/arcgis/rest/services/Ndirande-ortho/MapServer"
   });
   // Add layer to map
 	map.add(layer);
