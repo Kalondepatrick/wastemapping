@@ -97,11 +97,6 @@ require(["esri/config",
         popupTemplate: popupDistricts,
         }); 
           
-var basemap = new TileLayer({
-	url:"https://tiles.arcgis.com/tiles/kCCq6u9VUnRxswS4/arcgis/rest/services/Ndirande-ortho/MapServer"
-				 });
-        map.addLayer(basemap);
-	
          /********************
          * Add Map Legend 
          ********************/
