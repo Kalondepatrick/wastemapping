@@ -13,7 +13,7 @@ require(["esri/config",
     
       esriConfig.apiKey = MY_API_KEY; 
     
-      const map = new Map({
+      let map = new Map({
         basemap: "satellite" // Basemap layer
       });
     
