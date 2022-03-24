@@ -97,9 +97,9 @@ require(["esri/config",
         popupTemplate: popupDistricts,
         }); 
           
-var cycleMap = new WebTiledLayer({"https://tiles.arcgis.com/tiles/kCCq6u9VUnRxswS4/arcgis/rest/services/Ndirande-ortho/MapServer"
+var basemap = new TileLayer({"https://tiles.arcgis.com/tiles/kCCq6u9VUnRxswS4/arcgis/rest/services/Ndirande-ortho/MapServer"
 				 });
-        map.addLayer(cycleMap);
+        map.addLayer(basemap);
 	
          /********************
          * Add Map Legend 
