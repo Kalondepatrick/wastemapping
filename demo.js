@@ -42,6 +42,14 @@ require(["esri/config",
 	
 	Dumpsites.title = "Waste Piles (Transect Walk)";	
 	
+	
+   var Dumpsites2 = new FeatureLayer({
+        url: "https://services8.arcgis.com/kCCq6u9VUnRxswS4/arcgis/rest/services/waste_piles_uav_data_and_ml/FeatureServer/0"
+        });
+	
+	Dumpsites.title = "Waste Piles (UAV Data + ML)";	
+	
+	
 	     
 	       
 	// Malawi sub-admistrative boundaries (TA's)
@@ -118,6 +126,7 @@ let layer = new TileLayer({
          * Add all Maps 
          ********************/
         map.add(Dumpsites, 1); 
+	map.add(Dumpsites2, 1); 
 	map.add(layer, 0);
 	map.add(Locations, 1);
     	map.add(District, 0);
