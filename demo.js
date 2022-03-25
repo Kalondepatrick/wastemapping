@@ -48,6 +48,14 @@ require(["esri/config",
         });
 	
 	Dumpsites.title = "Waste Piles (UAV Data + ML)";	
+
+	
+	// Area of Interest 
+
+
+   var AOI = new FeatureLayer({
+        url: "https://services8.arcgis.com/kCCq6u9VUnRxswS4/arcgis/rest/services/area_of_interest/FeatureServer/0"
+        });
 	
 	
 	     
@@ -126,7 +134,8 @@ let layer = new TileLayer({
          * Add all Maps 
          ********************/
         map.add(Dumpsites, 1); 
-	map.add(Dumpsites2, 1); 
+	map.add(Dumpsites2, 1);
+	map.add(AOI, 2);
 	map.add(layer, 0);
 	map.add(Locations, 1);
     	map.add(District, 0);
