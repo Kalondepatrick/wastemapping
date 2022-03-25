@@ -21,7 +21,7 @@ require(["esri/config",
     const view = new MapView({
         map: map,
         center: [35.04284, -15.7730355],
-        zoom: 19, 
+        zoom: 20, 
         container: "viewDiv",
         constraints: {
           snapToZoom: false
@@ -45,9 +45,7 @@ require(["esri/config",
 	
    var Dumpsites2 = new FeatureLayer({
         url: "https://services8.arcgis.com/kCCq6u9VUnRxswS4/arcgis/rest/services/waste_piles_uav_data_and_ml/FeatureServer/0"
-        });
-	
-	Dumpsites.title = "Waste Piles (UAV Data + ML)";	
+        });	
 
 	
 	// Area of Interest 
@@ -133,9 +131,9 @@ let layer = new TileLayer({
          /********************
          * Add all Maps 
          ********************/
-        map.add(Dumpsites, 1); 
-	map.add(Dumpsites2, 1);
-	map.add(AOI, 2);
+        map.add(Dumpsites, 3); 
+	map.add(Dumpsites2, 2);
+	map.add(AOI, 1);
 	map.add(layer, 0);
 	map.add(Locations, 1);
     	map.add(District, 0);
