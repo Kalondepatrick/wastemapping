@@ -131,9 +131,9 @@ let layer = new TileLayer({
          /********************
          * Add all Maps 
          ********************/
-        map.add(Dumpsites, 3); 
-	map.add(Dumpsites2, 2);
-	map.add(AOI, 1);
+        map.add(Dumpsites, 0); 
+	map.add(Dumpsites2, 1);
+	map.add(AOI, 2);
 	map.add(layer, 0);
 	map.add(Locations, 1);
     	map.add(District, 0);
