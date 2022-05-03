@@ -37,7 +37,7 @@ require(["esri/config",
    
       
     var Dumpsites = new FeatureLayer({
-        url: "https://services8.arcgis.com/kCCq6u9VUnRxswS4/arcgis/rest/services/waste_piles_transect_walk/FeatureServer/0"
+        url: "https://services8.arcgis.com/kCCq6u9VUnRxswS4/arcgis/rest/services/wastewalk/FeatureServer"
         });
 	
 	Dumpsites.title = "Waste Piles (Transect Walk)";	
