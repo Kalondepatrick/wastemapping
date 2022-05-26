@@ -55,6 +55,8 @@ require(["esri/config",
         url: "https://services8.arcgis.com/kCCq6u9VUnRxswS4/arcgis/rest/services/area_of_interest/FeatureServer/0"
         });
 	
+	AOI.title = "Region of Interest";
+	
 	
 	     
 	       
