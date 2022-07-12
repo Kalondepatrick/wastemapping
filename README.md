@@ -39,6 +39,13 @@ Our next step will involve, integrating emerging sources of data. Such data incl
 
 You can check out our prototype here: https://kalondepatrick.github.io/wastemapping/
 
+
+# Support Malawi National Environmental Agenda 
+
+There are dozens of groups that are interested to contribute towards ending open waste dumping. To support this effort, I volunteer during mt free time to help such groups to translate data into insights key to making decisions. 
+
+Here is my support towards Mudi River project: https://kalondepatrick.github.io/wastemapping/
+
 Feedback and comments can be sent to me directly. 
 
 # Scholarly work cited
