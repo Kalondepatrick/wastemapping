@@ -132,7 +132,6 @@ require(["esri/config",
         map.add(Dumpsites, 0); 
 	map.add(Dumpsites2, 1);
 	map.add(AOI, 2);
-	map.add(layer, 0);
 	map.add(Locations, 1);
     	map.add(District, 0);
 
