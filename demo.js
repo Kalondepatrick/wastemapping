@@ -89,10 +89,6 @@ require(["esri/config",
         outFields: ["NAME_1"],
         popupTemplate: popupDistricts,
         }); 
-          
-let layer = new TileLayer({
-    url: "https://tiles.arcgis.com/tiles/kCCq6u9VUnRxswS4/arcgis/rest/services/Ndirande-ortho/MapServer"
-  });
  	
          /********************
          * Add Map Legend 
